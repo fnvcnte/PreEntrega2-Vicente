@@ -1,0 +1,543 @@
+/* Conf de pagina */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+/* pagina inicio */
+
+    /* Barra de Navegacion y Titulo*/
+
+header{
+    display: flex;  
+    flex-direction: row-reverse;
+    align-items: start;
+    background-color: black;
+} 
+
+.tituloPrincipal {
+    margin-bottom: 20px; 
+}
+
+.navbar {
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-right: 70px;
+    font-size: 13px;
+}
+
+ul p{
+    margin: 0 10px;
+}
+
+.tituloPrincipal{
+    background-color: black; 
+    display: flex;
+    color: yellow;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    font-size: 40px;
+    padding: 30px;
+    font-family: 'Handjet';
+}
+
+.logo img{
+    height: 140px;
+    width: 100px;
+}
+
+    /* Main */
+
+body{
+    font-family:'Barlow', sans-serif;
+}    
+
+h2{
+    text-decoration: underline;
+    text-align: center;
+    font-size: 40px;
+    margin: 30px;
+}
+
+main #contenedorInicio2 p{
+    padding: 7px;
+    font-size: 17px;
+}
+
+main #contenedorInicio1 .imagenInicio2, .imagenInicio3{
+    display: none;
+}
+
+main #contenedorInicio3 .imagenInicio5, .imagenInicio6{
+    display: none;
+}
+
+main #contenedorInicio1 .imagenInicio1{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+main #contenedorInicio3 .imagenInicio4{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+    /* Footer */
+
+footer{
+    font-size: 15px;
+    background-color: black;
+    color: yellow;
+    height: 15vh;
+}
+
+.footerRedes {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 15px;
+}
+
+.iconosRedes {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.footerRedes img{
+    width: 40px;
+    height: 40px;
+    padding: 4px;
+}
+
+footer a{
+    text-decoration: none;
+    color: yellow;
+    margin-left: 20px;
+}
+
+.iconosRedes a {
+    display: flex;
+    flex-direction: row;
+}
+
+.contenedorFooter{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+/* Portafolio */
+
+.portafolio{
+    display: none;
+}
+
+#carouselExample{
+    margin: 20px;
+    padding: 5px;
+}
+
+#carouselExample img{
+    border-radius: 5%;
+}
+
+/* ¿Donde ir? */
+
+.menuDondeIr{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    color: black;
+}
+
+.menuDondeIr li a{
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 0px; 
+    border: 1px solid black;
+    padding: 4px 10px;
+    color: black;
+}
+
+.textoMonumentos{
+    grid-area: texto; 
+    margin: 10px 15px;
+    text-align: justify;
+}
+
+.textoMonumentos p{
+    font-size: 17px;
+}
+
+.imagenMonumentos{
+    grid-area: imagen; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 5px;
+}
+
+.imagenMonumentos img{ 
+    margin: 10px;
+    padding: 5px;
+    width: 400px;
+    height: 340px;
+}
+
+.imagenMonumentos p{
+    margin: 5px;
+    text-align: justify;
+    font-size: 17px;
+}
+
+.mapaMonumento{
+    grid-area: mapa;
+    align-items: center;
+    margin: 10px 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.mapaMonumento p{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 20px;
+    text-decoration: underline;
+} 
+
+.mapaMonumento iframe{
+    width: 400px;
+    height: 350px;
+}
+
+/* pseudoclases especificas */
+.menuDondeIr a:hover{
+    font-size: 13px;
+}
+
+.menuDondeIr a:active{
+    font-size: 10px;
+}
+
+/* Sobre Nosotros */
+
+.textoSobreNosotros p {
+    margin: 10px 15px;
+    text-align: justify;
+    font-size: 17px;
+}
+
+.imagenSobreNosotros{
+    display: flex;
+    justify-content: center;
+} 
+
+.imagenSobreNosotros .redes{
+    width: 110px;
+    height: 112px;
+    margin-top: 3px;
+    margin-right: 10px;
+}
+
+.imagenSobreNosotros .redes2{
+    width: 100px;
+    height: auto;
+    margin: 10px;
+}
+
+.imagenSobreNosotros .redes3{
+    width: 100px;
+    height: auto;
+    margin: 10px;
+}
+
+.enlaceContacto{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 15px;
+    margin: 10px;
+    color: black;
+}
+
+/* pseudoclases especificas */
+
+.enlaceContacto:hover{
+    background-color: black;
+    padding: 10px;
+
+}
+
+.enlaceContacto:active{
+    font-size: 10px;
+}
+
+.redes:hover, .redes2:hover, .redes3:hover {
+    opacity: 0.5;
+}
+
+/* Contacto */
+
+form{
+    margin: 10px 50px;
+    text-align: start;
+    border: 3px outset rgb(230, 228, 228);
+    padding: 15px;
+}
+
+form div{
+    padding-bottom: 5px;
+}
+
+form h3{
+    text-align: center;
+}
+
+/* pseudoclases generales */
+
+a:hover{
+    color: white;
+}
+
+ul a:hover{
+    background-color: black;
+    color: white !important;
+}
+
+/* diseño desktop */
+
+@media screen and (min-width: 1020px) {
+
+    /* Inicio */
+
+    /* barra de navegacion/titulo */
+
+    header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: black;
+    }
+
+    header .tituloPrincipal{
+        margin: 0;
+    }
+
+    .navbar {
+        font-size: 13px;
+        padding: 20px;
+    }
+
+    .logo img{
+        height: 100px;
+        width: 100px;
+    }
+
+    ul li a {
+        margin: 20px;   
+    }
+
+    header a:hover{
+        font-size: 17px;
+        border-bottom: 5px solid white;
+    }
+
+    header a:active{
+        font-size: 13px;
+    }
+
+    /* grid area */
+
+    #grilla{
+        display: grid;
+        grid-template-areas:
+        "imagen1 texto1 imagen2"
+        "imagen1 texto1 imagen2"
+        "imagen1 texto1 imagen2"
+        "footer footer footer";
+        grid-template-columns: 30% 40% 30%;
+        grid-template-rows: 1fr;
+    } 
+
+    main #contenedorInicio1 .imagenInicio2, .imagenInicio3{
+        display: grid;
+        border-radius: 15%;
+        margin-top: 50px;
+    }
+
+    main #contenedorInicio3 .imagenInicio5, .imagenInicio6{
+        display: grid;
+        border-radius: 15%;
+        margin-bottom: 80px;
+    }
+
+    main #contenedorInicio1 .imagenInicio1{
+        border-radius: 15%;
+    }
+
+    main #contenedorInicio3 .imagenInicio4{
+        border-radius: 15%;
+    }
+
+     main #contenedorInicio1 .imagenInicio1, .imagenInicio2, .imagenInicio3{
+        width: 100%;
+        padding: 40px;
+        object-fit: cover;
+        
+    }
+    
+    main #contenedorInicio3 .imagenInicio4, .imagenInicio5, .imagenInicio6{
+        width: 100%;
+        padding: 40px;
+        object-fit: cover; 
+    }
+
+    main #contenedorInicio1, #contenedorInicio3{
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+        justify-content: center;
+    } 
+
+    main #contenedorInicio2 p{
+        text-align: justify;
+        margin: 40px;
+    }
+
+    /* portafolio */
+
+    .portafolio{
+        display: flex;
+        flex-wrap: wrap; 
+        justify-content: space-evenly; 
+        margin: 20px;
+        padding: 30px;
+    }
+
+    .imagenPortafolio{
+        margin-top: 20px;
+    }
+
+    .portafolio img{
+    height: 300px;
+    width: 300px;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 10%;
+    }
+
+    #carouselExample{
+        display: none;
+    }
+
+    /* pseudoclase especifica */
+
+    .portafolio div:hover{
+        opacity: 0.7;
+    }
+
+    .portafolio img:hover{
+        box-shadow: 10px 13px 10px black;
+    }
+
+    /* donde ir */
+    
+    #monumentos{
+        margin-top: 10px;
+    }
+
+    #grilla2{
+        display: grid;
+        grid-template-areas: 
+        "imagen texto mapa"
+        "imagen texto mapa"
+        "imagen texto mapa";
+        grid-template-columns: 30% 40% 30%;
+        grid-template-rows: auto auto auto;
+        margin-left: 20px;
+        margin-right: 20px;
+    } 
+        
+    .textoMonumentos{
+            grid-area: texto; 
+            display: flex;
+            margin: 10px 15px;
+            text-align: justify;
+            font-size: 15px;
+    }
+        
+    .imagenMonumentos{
+            grid-area: imagen; 
+            display: flex;
+            flex-direction: column;
+    }
+        
+    .imagenMonumentos img{ 
+            margin: 10px;
+            padding: 5px;
+            width: 300px;
+            height: 350px;
+    }
+
+    .monumentoText{
+        text-align: justify;
+    }
+
+    /* sobre nosotros */
+
+    .contenedorSobreNosotros{
+        display: flex;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 100px;
+        margin-top: 50px;
+    }
+
+    .textoSobreNosotros{
+        width: 50%;
+        margin-left: 60px;
+    }
+
+    .textoSobrenosotros2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 50%;
+    }
+
+    /* contacto */
+
+    form{
+        margin-left: 500px;
+        margin-right: 500px;
+        margin-bottom: 50px;
+    }
+
+    form div{
+        padding-bottom: 5px;
+    }
+
+    form h3{
+        text-align: center;
+    }
+    
+
+} 
