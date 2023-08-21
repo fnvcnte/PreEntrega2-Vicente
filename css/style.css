@@ -18,7 +18,7 @@ header{
     display: flex;  
     flex-direction: row-reverse;
     align-items: start;
-    background-color: black;
+    background-color: #0b0a16;
 } 
 
 .tituloPrincipal {
@@ -37,9 +37,9 @@ ul p{
 }
 
 .tituloPrincipal{
-    background-color: black; 
+    background-color: #0b0a16; 
     display: flex;
-    color: yellow;
+    color: rgb(204, 204, 86);
     justify-content: center;
     align-items: center;
     gap: 1rem;
@@ -51,6 +51,14 @@ ul p{
 .logo img{
     height: 140px;
     width: 100px;
+}
+
+.nav-item a{
+    color: rgb(204, 204, 86) !important;
+}
+
+.navbar-toggler{
+    background-color: rgb(207, 207, 207) !important;
 }
 
     /* Main */
@@ -95,8 +103,8 @@ main #contenedorInicio3 .imagenInicio4{
 
 footer{
     font-size: 15px;
-    background-color: black;
-    color: yellow;
+    background-color: #0b0a16;
+    color: rgb(204, 204, 86);
     height: 15vh;
 }
 
@@ -121,7 +129,7 @@ footer{
 
 footer a{
     text-decoration: none;
-    color: yellow;
+    color: rgb(204, 204, 86);
     margin-left: 20px;
 }
 
@@ -131,7 +139,7 @@ footer a{
 }
 
 .contenedorFooter{
-    background-color: black;
+    background-color: #0b0a16;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -162,16 +170,16 @@ footer a{
     list-style: none;
     margin: 0px;
     padding: 0px;
-    color: black;
+    color: #0b0a16;
 }
 
 .menuDondeIr li a{
     text-decoration: none;
     display: inline-block;
     margin-right: 0px; 
-    border: 1px solid black;
+    border: 1px solid #0b0a16;
     padding: 4px 10px;
-    color: black;
+    color: #0b0a16;
 }
 
 .textoMonumentos{
@@ -272,13 +280,13 @@ footer a{
     text-decoration: none;
     font-size: 15px;
     margin: 10px;
-    color: black;
+    color: #0b0a16;
 }
 
 /* pseudoclases especificas */
 
 .enlaceContacto:hover{
-    background-color: black;
+    background-color: #0b0a16;
     padding: 10px;
 
 }
@@ -315,7 +323,7 @@ a:hover{
 }
 
 ul a:hover{
-    background-color: black;
+    background-color: #0b0a16;
     color: white !important;
 }
 
@@ -333,7 +341,7 @@ ul a:hover{
     align-items: center;
     text-align: center;
     justify-content: center;
-    background-color: black;
+    background-color: #0b0a16;
     }
 
     header .tituloPrincipal{
@@ -454,7 +462,7 @@ ul a:hover{
     }
 
     .portafolio img:hover{
-        box-shadow: 10px 13px 10px black;
+        box-shadow: 10px 13px 10px #0b0a16;
     }
 
     /* donde ir */
